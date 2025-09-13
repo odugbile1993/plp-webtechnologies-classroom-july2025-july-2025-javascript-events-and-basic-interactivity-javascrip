@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Interactive Web Page Assignment</h1>
+
+  <!-- Part 1: Interactive Buttons -->
+  <section id="interactive-buttons">
+    <h2>Click the Button</h2>
+    <button id="clickMeBtn">Click Me!</button>
+    <p id="clickMessage"></p>
+  </section>
+
+  <!-- Part 2: Light/Dark Mode Toggle -->
+  <section id="theme-toggle">
+    <h2>Toggle Light/Dark Mode</h2>
+    <button id="themeBtn">Switch Theme</button>
+  </section>
+
+  <!-- Part 2: Counter -->
+  <section id="counter">
+    <h2>Counter</h2>
+    <button id="decrease">-</button>
+    <span id="count">0</span>
+    <button id="increase">+</button>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section id="form-section">
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label>
+        Name:
+        <input type="text" id="name" placeholder="Your name">
+      </label>
+      <br>
+      <label>
+        Email:
+        <input type="text" id="email" placeholder="you@example.com">
+      </label>
+      <br>
+      <label>
+        Password:
+        <input type="password" id="password" placeholder="Password">
+      </label>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formFeedback"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
